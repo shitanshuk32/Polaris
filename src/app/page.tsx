@@ -11,12 +11,13 @@ export default function Home() {
 
   return (
     <main className="flex flex-col gap-2 p-4">
-        <p>Hello</p>
-        <Button onClick={() => createProject({
-          name: "Project 2"
-        })}>
-          Add projects
-        </Button>
+      <p>Hello</p>
+      <Button onClick={() => createProject({
+        name: "Project 2"
+      })}>
+        Add projects
+      </Button>
+
     </main>
   );
 }
